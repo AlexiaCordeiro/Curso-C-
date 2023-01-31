@@ -1,7 +1,12 @@
 #include <iostream>
 #include <string>
-#include "letra_existe.cpp"
-#include "nao_enforcou.cpp"
+#include <vector>
+#include <map>
+#include "letra_existe.hpp"
+
+extern std::map<char, bool> chutou;
+extern std::vector<char> chutes_errados;
+
 
 void chuta(){
     std::cout << "Seu chute: ";

@@ -1,6 +1,14 @@
 #include <string>
 #include <iostream>
-#include "chuta.cpp"
+#include <vector>
+#include <map>
+
+
+extern std::vector<char> chutes_errados;
+extern std::map<char, bool> chutou;
+extern std::string palavra_secreta;
+
+
 
 void imprime_cabecalho()
 {

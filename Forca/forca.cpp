@@ -5,9 +5,22 @@
 #include <fstream>
 #include <ctime>
 #include <cstdlib>
-#include "imprime.cpp"
-#include "adiciona_palavra.cpp"
+#include "adiciona_palavra.hpp"
+#include "chuta.hpp"
+#include "imprime.hpp"
+#include "le_arquivo.hpp"
+#include "letra_existe.hpp"
+#include "nao_acertou.hpp"
+#include "nao_enforcou.hpp"
+#include "salva_arquivo.hpp"
+#include "adiciona_palavra.hpp"
+#include "sorteia_palavra.hpp"
+
 using namespace std;
+std::string palavra_secreta;
+std::map<char, bool> chutou;
+std::vector<char> chutes_errados;
+
 
 
 int main () {

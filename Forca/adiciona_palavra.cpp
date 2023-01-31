@@ -2,8 +2,8 @@
 #include <string>
 #include <vector>
 #include <fstream>
-#include "salva_arquivo.cpp"
-#include "sorteia_palavra.cpp"
+#include "salva_arquivo.hpp"
+#include "le_arquivo.hpp"
 
 void adiciona_palavra(){
     std::cout << "Digite a nova palavra, usando letras maiúsculas." << std::endl;

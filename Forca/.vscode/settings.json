@@ -4,6 +4,7 @@
         "iosfwd": "cpp",
         "string": "cpp",
         "ostream": "cpp",
-        "cstdlib": "cpp"
+        "cstdlib": "cpp",
+        "iostream": "cpp"
     }
 }
